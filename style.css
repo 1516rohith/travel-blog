@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.global-msg {
+  background-color: blue;
+  color: white;
+}
+.global-msg > div,
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  background-color: aqua;
+}
+
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  margin-left: 1.2rem;
+}
+.menu ul li:hover {
+  cursor: pointer;
+  color: cyan;
+}
+.hero {
+  background: url(./img/reho.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  background-color: black;
+  color: white;
+  width: 450px;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.main {
+  display: flex;
+  margin-top: 32px;
+}
+
+.main-content {
+  background-color: red;
+}
+.side-links {
+  width: 34%;
+}
+
+article {
+  display: flex;
+  border: 5px dotted #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+.art-img {
+  margin-right: 20px;
+}
+
+.read-by-contry,
+.read-by-date {
+  margin-top: 3.6;
+  padding: 1rem;
+  background-color: rgb(251, 245, 73);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.recc {
+  background-color: rgb(67, 255, 180);
+  padding: 2rem;
+}
+.cardlist {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  box-shadow: -5px 5px 15px 5px gray;
+  background: white;
+  padding-bottom: 2rem;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.card > img {
+  border-radius: 10px 10px 0 0;
+}
+
+.footer {
+  background-color: black;
+  color: bisque;
+  padding: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.btn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  padding: 8px 15px;
+  background: orangered;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.subs {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
